@@ -1,0 +1,28 @@
+.section-client__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+  
+    display: flex;
+    justify-content: center;
+  }
+  .section-client__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .section-client__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-client__link {
+    fill: var(--client-color);
+    border: 1px solid var(--client-color);
+    border-radius: 4px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .section-client__link:hover {
+    fill: var(--hover-color);
+    border: 1px solid var(--hover-color);
+  }

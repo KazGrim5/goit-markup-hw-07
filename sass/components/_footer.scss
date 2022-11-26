@@ -1,0 +1,39 @@
+.footer {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--footer-color);
+  }
+  .footer-contact__logo {
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    color: var(--btn-color);
+  }
+  .footer-contact__address {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--btn-color);
+    margin-top: 15px;
+  }
+  .footer-contact__link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 7px;
+  }
+  .footer-contact__list {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-body {
+    display: flex;
+  }
