@@ -1,17 +1,16 @@
+.footer-newsletter {
+  margin-left: 70px;
 
-.footer-newsletter__title {
+  &__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     color: var(--btn-color);
   }
-  .footer-newsletter {
-    margin-left: 70px;
-  }
-  .footer-newsletter__form {
+  &__form {
     display: flex;
   }
-  .footer-newsletter__input {
+  &__input {
     width: 358px;
     height: 50px;
     margin-top: 16px;
@@ -22,11 +21,12 @@
     background-color: var(--footer-color);
     margin-right: 12px;
     color: var(--text-color);
+
+    &:focus-visible {
+      outline: none;
+    }
   }
-  .footer-newsletter__input:focus-visible{
-    outline: none;
-  }
-  .footer-newsletter__submit {
+  &__submit {
     position: relative;
     width: 200px;
     height: 50px;
@@ -35,11 +35,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
-  .footer-newsletter__submit:hover {
-    cursor: pointer;
-  }
-  .footer-newsletter__text {
+  &__text {
     position: absolute;
     color: var(--btn-color);
     font-weight: 700;
@@ -48,8 +49,9 @@
     left: 42px;
     bottom: 10px;
   }
-  .footer-newsletter__icon {
+  &__icon {
     position: absolute;
     right: 28px;
     top: 13px;
   }
+}
